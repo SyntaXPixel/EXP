@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 20px;
+    }
+    table {
+        width: 100%;
+        margin: 20px 0;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: center;
+    }
+    th {
+        background-color: #3d5a80;
+        color: white;
+        font-weight: bold;
+    }
+
+    td:hover {
+        background-color: #ddd;
+    }
+    td {
+        transition: background-color 0.3s;
+    }
+    
+    #break
+    {background-color: #bed8e7;}
+
+    #blank {background-color: #98c1d9;}
+
+    #day {background-color: #3d5a80;
+    color: white;}
+    
+</style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th></th>
+        <th>8.15-9.15</th>
+        <th>9.15-10.15</th>
+        <th>10.15-10.45</th>
+        <th>10.45-11.45</th>
+        <th>11.45-12.45</th>
+        <th>12.45-1.30</th>
+        <th>1.30-2.30</th>
+        <th>2.30-3.30</th>
+        <th>3.30-3.45</th>
+        <th>3.45-4.45</th>
+        <th>4.45-5.45</th>
+    </tr>
+    <tr>
+        <td id="day">Monday</td>
+        <td id="blank"></td>
+        <td id="blank"></td>
+        <td rowspan="6" id="break">Short Break</td>
+        <td id="blank"></td>
+        <td>L.A. [SSG] [A4-02]</td>
+        <td rowspan="6" id="break">Long Recess</td>
+        <td>GFM [MS] [A1-06]</td>
+        <td>BXEE [KM] [A1-01]</td>
+        <td rowspan="6" id="break">Short Recess</td>
+        <td colspan="2">Liberal Learning</td>
+
+    </tr>
+    <tr>
+        <td id="day">Tuesday</td>
+        <td><td>
+        <td>PSLB [NU] [A2-05]</td>
+        <td>L.A. [SSG] [A2-05]</td>
+        <td>CHEM [SVD] [A2-04]</td>
+        <td>CHEM [SVD] [A2-04]</td>
+        <td>BXEE [KM] [A2-04]</td>
+        <td id="blank"></td>
+
+    </tr>
+    <tr>
+        <td id="day">Wednesday</td>
+        <td id="blank"></td>
+        <td id="blank"></td>
+        <td colspan="2">P.D.-I [RB] [A1-05]</td>
+        <td>CHEM [SVD] [A1-03]</td>
+        <td>IKS [PDD] [A1-03]</td>
+        <td colspan="2">CHEM [SVD] [A1-03] <br>
+            BXEE [KM] [A2-04] <br>
+            PSLB [VG] [A2-04]</td>
+        </td>
+ 
+    </tr>
+    <tr>
+        <td id="day">Thursday</td>
+        <td colspan="2">1. WAD-SB <br>
+        2. WAD-MS <br>
+    [A1-02]</td>
+        <td> PSLB [NU] [A3-03]</td>
+        <td>L.A. [SSG] [A3-03]</td>
+        <td>L.A. [SSG] [A3-03]</td>
+        <td id="blank"></td>
+        <td id="blank"></td>
+        <td id="blank"></td>
+    </tr>
+    <tr>
+        <td id="day">Friday</td>
+        <td id="blank"></td>
+        <td id="blank"></td>
+        <td colspan="2">1. WAD-SB <br>
+            2. WAD-MS <br>
+        [A1-02]</td>
+        <td>BXEE [KM] [A3-05]</td>
+        <td>IKS [PDD] [A3-05]</td>
+        <td colspan="2">CHEM [SVD] [A1-03] <br>
+            BXEE [KM] [A2-04] <br>
+            PSLB [VG] [A2-04]</td>
+        </td>
+    </tr>
+    <tr>
+        <td id="day">Saturday</td>
+        <td id="blank"></td>
+        <td id="blank"></td>
+        <td id="blank"></td>
+       <td>PSLB [NU] [A3-05]</td>
+       <td colspan="2">P.D.-I [RB] [A3-03]</td>
+       <td colspan="2">CHEM [SVD] [A1-03] <br>
+        BXEE [KM] [A2-04] <br>
+        PSLB [VG] [A2-04]</td>
+    </td>
+        
+    </tr>
+</table>
+
+</body>
+</html>
